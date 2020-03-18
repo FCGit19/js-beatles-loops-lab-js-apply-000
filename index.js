@@ -43,7 +43,7 @@ function iLoveTheBeatles(number) {
     i++;
     
     
-    } while (i > 0 && i < 15);
+    } while (i > 0 && i < number);
     
     return newArr;
 }
