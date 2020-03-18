@@ -41,10 +41,7 @@ function iLoveTheBeatles(number) {
   do {
     newArr.push("I love the Beatles!!!");
     i++;
-    var diff = Math.abs(number - i);
-      if (diff < 15) 
-      console.log(newArr);  
-      
+    console.log(newArr);  
     
     } while (Math.abs(number - i) < 15 && number > 0);
     
