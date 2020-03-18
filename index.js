@@ -43,7 +43,7 @@ function iLoveTheBeatles(number) {
     i++;
     console.log(newArr);  
     
-    } while (Math.abs(number - i) < 15 && number > 0);
+    } while (Math.abs(number - 15) < 15 && Math.abs(number - 15) > 0);
     
     return newArr;
 }
