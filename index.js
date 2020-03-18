@@ -36,14 +36,14 @@ function johnLennonFacts(arrayOfFacts) {
 
 function iLoveTheBeatles(number) {
   var newArr = [];
-  number = 0;
+  var i = 0;
  
   do {
     newArr.push("I love the Beatles!!!");
-    number++;
+    i++;
     
     
-    } while (Math.abs(number - 15) < 15 && Math.abs(number - 15) > 0);
+    } while (Math.abs(i - 15) < 15 && Math.abs(i - 15) > 0);
     
     return newArr;
 }
